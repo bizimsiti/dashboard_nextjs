@@ -16,7 +16,9 @@ export default function DashboardLayout({
           className="flex items-center  justify-center lg:justify-start gap-2 pt-2"
         >
           <Image src={"/logo.svg"} alt="logo" width={32} height={32} />
-          <span className="hidden xl:block">EducationCampus</span>
+          <span className="hidden xl:block font-bold text-[#0084FF]">
+            EducationCampus
+          </span>
         </Link>
         <Menu />
       </div>
